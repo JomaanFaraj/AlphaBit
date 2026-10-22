@@ -1,0 +1,336 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+
+}
+.hero-section {
+    position: relative;
+    background-color: #49BBBD;
+    min-height: 100vh;
+    overflow: hidden;
+    clip-path: ellipse(118% 100% at 50% 0%);
+}
+.parent{
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.ch1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ch1 svg {
+    width: 50px;
+    height: 50px;
+}
+.x1 {
+    position: absolute;
+    background-color: transparent;
+    left: 76px;
+    font-weight: bold;
+}
+.ch2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: 2%;
+    list-style-type: none;
+
+}
+.x2 {
+    width: 100px;
+    height: 35px;
+
+    background-color: #feffff;
+    color: rgb(7, 7, 7);
+
+    border: none;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.x3{
+    background-color: #8ededa;
+    color: rgb(255, 255, 255);
+}
+.x4{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.UpParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 15px 60px;
+    gap: 30px;
+
+    position: relative;
+}
+.parent2 {
+    flex: 0 0 50%;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+
+    gap: 20px;
+    padding: 0;
+    height: auto;
+
+    position: static;
+   transform:  translateY(-43px);
+}
+.ch3{
+    width: 294px;
+    font-size: 23px;
+    color: white;
+}
+.ch7{
+    color: rgb(222, 176, 60);
+}
+.ch4{
+       width: 330px;
+    font-size: 15px;
+    color: white;
+}
+.ch5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.play-button {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.watch-text {
+    margin: 0;
+    color: #252641;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.ch8{
+ background-color: transparent;
+    width: 26px;
+    height: 22px;
+    transform: translateX(2px);
+}   
+
+.image-box {
+    flex: 0 0 45%;
+    min-width: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateX(-65px);
+}
+
+.ch9 {
+    display: block;
+    width: 100%;
+    max-width: 325px;
+    height: auto;
+    object-fit: contain;
+}
+.student-card {
+    position: absolute;
+    top: 25%;
+    left: -10%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 241px;
+    min-height: 76px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.student-icon{
+    width: 55px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23BDEE;
+}
+.student-info {
+    background-color: transparent;
+}
+.student-car{
+    position: absolute;
+    top: 60%;
+    left: -4%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 120px;
+    width: 254px;
+    min-height: 76px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.ch11{
+    width: 100px;
+    height: 35px;
+
+    background-color: #D8587E;
+    color: rgb(255, 255, 255);
+
+    border: none;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.ch12{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    background-color: transparent;
+}
+.ch13{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    background-color: transparent;
+}
+.student-{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+     color: #474646;
+}
+.backImage{
+    background-color: transparent;
+
+}
+.student-1{
+    font-size: 13px;
+    color: #585555;
+    background-color: transparent;
+}
+.student-ca{
+    position: absolute;
+    top: 37%;
+    left: 61%;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    height: 82px;
+    width: 248px;
+    min-height: 76px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.student-ico{
+    width: 46px;
+    height: 43px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F88C3D;
+}
+.ch14{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: start;
+
+}
+.ch15{
+    background-color: transparent;
+}
+.student-2{
+    font-size: 12px;
+    color: #585555;
+    background-color: transparent;
+}
+.student-ic{
+    position: absolute;
+    top: 9%;
+    left: 87%;
+    z-index: 4;
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3627C;
+}
+
+  
+
+.student-i{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}    
+.ch16{
+    background-color: transparent;
+}
