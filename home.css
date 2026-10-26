@@ -124,9 +124,8 @@ body{
 }
 
 .play-button {
-    width: 56px;
-    height: 56px;
-    min-width: 56px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     border: none;
     border-radius: 50%;
@@ -147,8 +146,7 @@ body{
 }
 .ch8{
  background-color: transparent;
-    width: 26px;
-    height: 22px;
+   
     transform: translateX(2px);
 }   
 
@@ -163,10 +161,9 @@ body{
 }
 
 .ch9 {
-    display: block;
+    display: flex;
     width: 100%;
     max-width: 325px;
-    height: auto;
     object-fit: contain;
 }
 .student-card {
